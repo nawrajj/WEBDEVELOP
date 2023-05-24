@@ -19,6 +19,7 @@ scroll-behavior:smooth;
 
 }
 
+
 input[type=text] {
 width: 130px;
 box-sizing: border-box;
@@ -114,6 +115,7 @@ color: blue;
 font-style: italic;
 font-weight:bold ;
 background-color:white;
+algin-size:centre;
 }
 a.active{
 background-color:blue;
