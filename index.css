@@ -467,12 +467,14 @@ sectionfour{
   text-align: center;
   align-items: center;
   align-content: center;
+background-color:Blue;
 }
 section1{
   background: black;
   color: white;
   text-align: center;
- 
+
+background-color:black; 
 }
 .fa {
   padding: 20px;
