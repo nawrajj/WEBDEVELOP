@@ -43,14 +43,14 @@
   }
   nav ul li{
     display: inline-block;
-    line-height: 80px;
+    line-height: 70px;
   
   }
   nav ul li a{
-    color:purple;
+    color:white;
     font-size:larger;
   
-    padding: 7px;
+    padding: 5px;
   
   }
   nav ul li  a:hover{
@@ -58,6 +58,7 @@
     color:yellow;
     font-style: italic;
     font-weight: bolder;
+    font-size:35px;
   
   }
   
@@ -208,9 +209,25 @@ padding-right: 300px;
   
   
   }
+  .butt{
+    width: fit-content;
+  height: fit-content;
+  font-family:poppins;
+  font-size: 35px;
+  font-weight: bold;
+  color:rgb(243, 219, 6);
+  background-color:rgb(167, 4, 132);
+  padding:5px 10px ;
+  outline: white;
+  border-radius: 3mm;
+  cursor: pointer;
+  border-color: gold;
+  
+  
+  }
   a:hover{
-    color: purple;
-    background-color:black;
+    color: white;
+    background-color:purple;
     
   }
   .popup{
@@ -490,11 +507,11 @@ padding-right: 300px;
   background-color:Blue;
   }
   section1{
-    background: black;
-    color: white;
+    background-color: black;
+    color:black;
     text-align: center;
   
-  background-color:black; 
+
   }
   .fa {
     padding: 20px;
@@ -504,6 +521,7 @@ padding-right: 300px;
     text-decoration:dashed;
     margin: 5px 2px;
   }
+  
   .fa-facebook-square{
     padding: 10px;
     font-size: 25px;
@@ -513,6 +531,7 @@ padding-right: 300px;
     text-decoration:dashed;
     margin: 5px 2px;
   }
+  
   .fa-facebook-square{
   
     color:white;
@@ -520,12 +539,12 @@ padding-right: 300px;
   }
 
   .fa-facebook-square:hover{
-    background-color:red;
+    background-color:black;
     color:purple;
   }
   .fa-facebook{
   
-    background: #3b5998;
+    background:rgba(5, 5, 214, 0.877);
     color: white;
   }
   .fa-youtube{
@@ -534,14 +553,17 @@ padding-right: 300px;
   .fa-twitter{
     background: #55acee;
   }
-  .fa-instagram{
+  .fa-github{
     background:black;
+    color: white;
   }
   .fa-whatsapp{
     background:green;
   }
+  
   .fa-google{
     background:black;
+    color: white;
   }
 
 h2{
