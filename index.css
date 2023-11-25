@@ -11,8 +11,7 @@ box-sizing: border-box;
   body{
      width: 100%;
           font-family: sans-serif;
-          background-size: cover;
-          background-position: center;
+         
        
           background-color:#e1d9d1;
           scroll-behavior:smooth;
@@ -332,7 +331,7 @@ sectionfour{
 }
 section1{
   text-align: center;
-  background-color:black;
+  background:black;
 }
 /* our service */
 .box{
@@ -354,7 +353,7 @@ h3{
   
 }
 x{
-  font-size:25px;
+  font-size:22px;
   font-weight: bolder;
   color: red;
 }
@@ -441,4 +440,22 @@ color: white;
 color: white;
 background-color:black;
 }
+/*team box1*/
+.box1{
+    
+    background-color:antiquewhite;
+    height:260px;
+    width: 230px;
+    border-color:rgb(45, 0, 128);
+    border-style:solid;
+    border-radius:10px;
+    margin: 1px;
+    display: inline-block;
+  }
+  .box1:hover {
+    background-color:lawngreen; 
+    transition-duration:1s;
+    color:white;
+      
+    }
 
